@@ -52,6 +52,9 @@ Temporary Items
 .idea
 Debug
 Release
+# VS2019
+*.sln
+*.vcxproj*
 # Build dirs
 /bin
 /bin-intermediate
