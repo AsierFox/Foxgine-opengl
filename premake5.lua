@@ -34,7 +34,8 @@ project "Foxgine"
 	
 	includedirs
 	{
-		("%{prj.name}/vendor/" .. spdlogIncludeDir)
+		("%{prj.name}/vendor/" .. spdlogIncludeDir),
+		"%{prj.name}/src"
 	}
 	
 	filter "system:windows"

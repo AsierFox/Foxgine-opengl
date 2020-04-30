@@ -2,12 +2,10 @@
 
 #include <Foxgine.h>
 
-class SandboxApplication : public Foxgine::Application
+class SandboxApplication : public Foxgine::FoxgineApplication
 {
 public:
 
 	SandboxApplication();
 	~SandboxApplication();
 };
-
-Foxgine::Application* Foxgine::CreateApplication();

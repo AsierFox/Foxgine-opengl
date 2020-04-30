@@ -8,7 +8,7 @@ SandboxApplication::~SandboxApplication()
 {
 }
 
-Foxgine::Application* Foxgine::CreateApplication()
+Foxgine::FoxgineApplication* Foxgine::CreateApplication()
 {
 	return new SandboxApplication;
 }

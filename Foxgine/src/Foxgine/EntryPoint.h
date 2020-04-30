@@ -2,13 +2,13 @@
 
 #ifdef FOXGINE_PLATFORM_WINDOWS
 
-extern Foxgine::Application* Foxgine::CreateApplication();
+extern Foxgine::FoxgineApplication* Foxgine::CreateApplication();
 
 int main(int argc, char** argv)
 {
 	Foxgine::Logger::Init();
 	
-	Foxgine::Application* app = Foxgine::CreateApplication();
+	Foxgine::FoxgineApplication* app = Foxgine::CreateApplication();
 
 	app->Run();
 
